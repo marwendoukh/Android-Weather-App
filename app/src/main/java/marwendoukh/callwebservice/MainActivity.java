@@ -25,11 +25,15 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    // we"ll make HTTP request to this URL to retrieve weather conditions
     String weatherWebserviceURL = "http://api.openweathermap.org/data/2.5/weather?q=ariana,tn&appid=2156e2dd5b92590ab69c0ae1b2d24586&units=metric";
+    //the loading Dialog
     ProgressDialog pDialog;
+    // Textview to show temperature and description
     TextView temperature, description;
+    // background image
     ImageView weatherBackground;
+    // JSON object that contains weather information
     JSONObject jsonObj;
 
     @Override
