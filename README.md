@@ -6,6 +6,7 @@ I made a tutorial that explain more this source code, I'll post it in few days.
 
 #Result
 When you launch the App ,it will retrieve weather's condition and change the background image according to current weather
+
 ![alt Android weather App](https://marwendoukh.files.wordpress.com/2017/01/android-weather-app.png?w=240&h=350)
 
 #Licence
