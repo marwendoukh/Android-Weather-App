@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         // load image from link and display it on background
+                        // We'll use the Glide library
                         Glide
                                 .with(getApplicationContext())
                                 .load(backgroundImage)
